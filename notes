@@ -1,0 +1,44 @@
+src/
+│
+├── assets/
+│   ├── images/
+│   ├── pizzas/
+│   └── ingredients/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   ├── PizzaCard.jsx
+│   ├── IngredientRow.jsx
+│   ├── CartItem.jsx
+│   └── QuantityButton.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── OrderPizza.jsx
+│   ├── BuildPizza.jsx
+│   ├── Cart.jsx
+│   ├── Login.jsx
+│   ├── Register.jsx
+│   ├── Checkout.jsx
+│   └── Feedback.jsx
+│
+├── context/
+│   ├── CartContext.jsx
+│   └── AuthContext.jsx
+│
+├── data/
+│   ├── pizzas.json
+│   └── ingredients.json
+│
+├── layouts/
+│   └── Layout.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+
+==============================================
+
+rendering browserRouter
+
