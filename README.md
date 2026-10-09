@@ -2,7 +2,7 @@
 
 A pizza ordering web app built with React, Vite and Bootstrap. Browse the menu, customize a pizza with extra toppings, check out, and track your past orders.
 
-**Live demo:** https://your-project.vercel.app
+**Live demo:** https://pizzeria-web-application.vercel.app/
 
 ## Features
 
@@ -27,7 +27,7 @@ A pizza ordering web app built with React, Vite and Bootstrap. Browse the menu, 
 | Routing | React Router |
 | Styling | Bootstrap 5.3 with a custom theme, Bootstrap Icons |
 | Notifications | React Toastify |
-| State | React Context and `useReducer` (no Redux) |
+| State | React Context and `useReducer` |
 | Storage | Browser localStorage |
 | Linting | ESLint |
 
@@ -88,10 +88,6 @@ src/
 | `/auth` | Log in / register |
 | `/orders` | My orders (login required) |
 | `/success/:orderId` | Order confirmation and feedback (login required) |
-
-## Deployment
-
-The project includes a `vercel.json` so page refreshes work on any route. To deploy, import the repository in [Vercel](https://vercel.com/) and keep the default Vite settings (build command `npm run build`, output folder `dist`).
 
 ## Notes
 
